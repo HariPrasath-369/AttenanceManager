@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+package com.attendance.backend.controller;
+=======
 package com.attendance.backend.controller;
 
 import com.attendance.backend.entity.Student;
@@ -48,3 +51,4 @@ public class StudentController {
         return ResponseEntity.noContent().build();
     }
 }
+>>>>>>> a39a58e7ca679a641a1cf6d2cece10124c75ab61

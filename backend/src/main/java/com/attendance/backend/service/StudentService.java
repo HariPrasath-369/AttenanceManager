@@ -1,4 +1,8 @@
 package com.attendance.backend.service;
+<<<<<<< HEAD
+public class StudentService {
+    
+=======
 
 import com.attendance.backend.entity.Student;
 import com.attendance.backend.exception.ResourceNotFoundException;
@@ -48,4 +52,5 @@ public class StudentService {
         }
         studentRepository.deleteById(id);
     }
+>>>>>>> a39a58e7ca679a641a1cf6d2cece10124c75ab61
 }

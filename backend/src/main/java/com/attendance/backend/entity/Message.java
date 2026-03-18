@@ -1,9 +1,5 @@
 package com.attendance.backend.entity;
 
-<<<<<<< HEAD
-public class Student {
-    
-=======
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -16,15 +12,10 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-@Document(collection = "students")
-public class Student {
+@Document(collection = "messages")
+public class Message {
     @Id
     private String id;
-    private String name;
-    private String rollNumber;
+    private String content;
     private LocalDateTime createdAt;
-    private String parentDetails;
-    private String address;
-    private String mobileNumber;
->>>>>>> a39a58e7ca679a641a1cf6d2cece10124c75ab61
 }
