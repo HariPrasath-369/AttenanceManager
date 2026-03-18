@@ -1,9 +1,12 @@
 package com.attendance.backend.entity;
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 public class Student {
     
 =======
+>>>>>>> e129198e3070a4eeb3e8a3fe91bd4b99ac2df0c6
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -26,5 +29,8 @@ public class Student {
     private String parentDetails;
     private String address;
     private String mobileNumber;
+<<<<<<< HEAD
+=======
 >>>>>>> a39a58e7ca679a641a1cf6d2cece10124c75ab61
+>>>>>>> e129198e3070a4eeb3e8a3fe91bd4b99ac2df0c6
 }

@@ -1,8 +1,11 @@
 package com.attendance.backend.service;
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 public class StudentService {
     
 =======
+>>>>>>> e129198e3070a4eeb3e8a3fe91bd4b99ac2df0c6
 
 import com.attendance.backend.entity.Student;
 import com.attendance.backend.exception.ResourceNotFoundException;
@@ -52,5 +55,8 @@ public class StudentService {
         }
         studentRepository.deleteById(id);
     }
+<<<<<<< HEAD
+=======
 >>>>>>> a39a58e7ca679a641a1cf6d2cece10124c75ab61
+>>>>>>> e129198e3070a4eeb3e8a3fe91bd4b99ac2df0c6
 }
