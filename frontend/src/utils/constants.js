@@ -1,0 +1,12 @@
+export const ROLES = {
+    PRINCIPAL: 'PRINCIPAL',
+    HOD: 'HOD',
+    CLASS_ADVISOR: 'CLASS_ADVISOR',
+    TEACHER: 'TEACHER',
+    STUDENT: 'STUDENT',
+};
+
+export const SESSIONS = {
+    MORNING: 'MORNING',
+    AFTERNOON: 'AFTERNOON',
+};
